@@ -1,6 +1,6 @@
 # Questionaire
 
-(https://github.com/vmandlbauer-tgm/Questionaire/blob/master/images/Projektumgebung.png)
+[<img src="https://github.com/vmandlbauer-tgm/Questionaire/blob/master/images/Projektumgebung.png">]
 
 ## Team
 
