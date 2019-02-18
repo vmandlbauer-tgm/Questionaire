@@ -8,13 +8,14 @@
  - [Viktor Manlbauer](https://docs.google.com/spreadsheets/d/1vOPmp4X6vbpJmo8aflFWNTDdE-eSw8MDF7fM8i_0oVo/edit#gid=15)
  
  ## Auftraggeber
-
+ 
+Christian SCHLEINING<br>
 Mob: +43 650 83 84 823 <br>
 Mail: christian.schleining@gmail.com
 
 ## Projektbetreuer
 
-Kai Höher <br>
+Kai HÖHER <br>
 Mail: khoeher@tgm.ac.at <br>
 Mob: +43 1 33126 312
 
