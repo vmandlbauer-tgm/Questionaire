@@ -2,7 +2,8 @@
 
 ## Auftraggeber
 
-[Auftraggeber](christian.schleining@gmail.com)
+Mob: +43 650 83 84 823
+Mail: christian.schleining@gmail.com
 
 ## Team
 
