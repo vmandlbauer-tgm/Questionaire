@@ -1,6 +1,8 @@
 # Questionaire
 
-[<img src="https://github.com/vmandlbauer-tgm/Questionaire/blob/master/images/Projektumgebung.png">]
+## Projektumfeld
+
+<img src="https://github.com/vmandlbauer-tgm/Questionaire/blob/master/images/Projektumgebung.png">
 
 ## Team
 
