@@ -20,9 +20,11 @@ Mail: christian.schleining@gmail.com
 ## Projektbetreuer
 
 Kai HÖHER <br>
-Mail: khoeher@tgm.ac.at <br>
-Mob: +43 1 33126 312
+Mob: +43 1 33126 312<br>
+Mail: khoeher@tgm.ac.at 
+
 
 ## Dokumentation
 - [Google Drive](https://drive.google.com/drive/u/0/folders/1Ek9e-RwccURTVcl1gq1n8AdKUyhoTPex)
 - [Zeitaufzeichnung](https://docs.google.com/spreadsheets/d/1vOPmp4X6vbpJmo8aflFWNTDdE-eSw8MDF7fM8i_0oVo/edit#gid=15)
+- [Kanban Board](https://github.com/vmandlbauer-tgm/Questionaire/projects/1)
