@@ -26,7 +26,7 @@
       <p class="lead text-muted">A Template for the meeting in Wednesday.</p>
       <p>
         <a href="#" class="btn btn-primary my-2">Main call to action</a>
-        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        <a href="#" class="btn btn-secondary my-2">asd action</a>
       </p>
     </div>
   </section>
