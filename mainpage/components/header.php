@@ -1,5 +1,5 @@
-<?php
-echo '     <header>
+<?php echo'     
+<header>
   <div class="collapse bg-dark" id="navbarHeader">
     <div class="container">
       <div class="row">
@@ -29,5 +29,5 @@ echo '     <header>
       </button>
     </div>
   </div>
-</header>'
-?>
+</header>
+'?>
