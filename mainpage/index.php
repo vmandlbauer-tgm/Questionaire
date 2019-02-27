@@ -11,6 +11,7 @@
 	<link type="text/css"  href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<!-- Costum Style CSS -->
 	<link type="text/css" rel="stylesheet" href="css/costum.css">
+
 	
   </head>
   <body>

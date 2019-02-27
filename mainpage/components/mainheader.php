@@ -14,5 +14,5 @@ echo'
 				</p>
 		</div>
 	</section>
-	' 
+	';
 ?>
