@@ -14,9 +14,8 @@
 	
   </head>
   <body>
-	<?php include 'components/header.php';?>
-	<?php include 'components/main.php';?>
-	<?php include 'components/footer.php';?>
-	<?php include 'imports/scripts.php';?>
+	<?php include("components/header.php");?>
+	<?php include("components/main.php");?>
+	<?php include("imports/scripts.php");?>
 </body>
 </html>
