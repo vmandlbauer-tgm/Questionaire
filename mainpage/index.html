@@ -1,36 +1,36 @@
 <!doctype html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="Viktor Mandlbauer (vmandlbauer@student.tgm.ac.at) & Semih Cakir (scakir@student.tgm.ac.at)">
-	<title>Questionnaire</title>
-
-	<!-- Bootstrap core CSS -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Viktor Mandlbauer (vmandlbauer@student.tgm.ac.at) & Semih Cakir (scakir@student.tgm.ac.at)">
+    <title>Questionnaire</title>
+	
+    <!-- Bootstrap core CSS -->
 	<link type="text/css"  href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<!-- Costum Style CSS -->
 	<link type="text/css" rel="stylesheet" href="css/costum.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS -->
 	<link type="text/css"  href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<!-- Costum Style CSS -->
 	<!-- <link type="text/css" rel="stylesheet" href="css/costum.css"> -->
-
+	
 	<script>
-		$(document).ready(function() {
-			$('.nav-link ').click(function() {
-				$('.nav-link ').removeClass('active');
-				$(this).closest('.nav-link ').addClass('active')
-			});
+	$(document).ready(function() {
+    $('.nav-link ').click(function() {
+        $('.nav-link ').removeClass('active');
+        $(this).closest('.nav-link ').addClass('active')
 		});
-
-		function showstuff(boxid){
-			document.getElementById(boxid).style.visibility="visible";
-		}
+	});
+	
+	function showstuff(boxid){
+		document.getElementById(boxid).style.visibility="visible";
+	}
 	</script>
-</head>
+  </head>
 <body>
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 	<a class="navbar-brand" href="#">Navbar</a>
@@ -61,9 +61,9 @@
 		</ul>
 	</div>
 </nav>
+	
 
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 	<ol class="carousel-indicators">
 		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -84,24 +84,24 @@
 		<span class="carousel-control-next-icon" aria-hidden="true"></span>
 		<span class="sr-only">Next</span>
 	</a>
-</div>
-
-
-
-<ul class="nav nav-pills nav-justified" style="margin-top:1%;">
-	<li class="nav-item">
-		<a class="nav-link" href="#!"  onclick="showstuff('marketing');">Marketing</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="#!" onclick="showstuff('ortsumfragen');">Ortsumfragen</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="#!" onclick="showstuff('loremipsumumfragen');">LoremIpsumUnfragen</a>
-	</li>
-</ul>
-
-<div class="container">
-	<!-- Content here -->
+	</div>
+	
+	
+	
+	<ul class="nav nav-pills nav-justified" style="margin-top:1%;">
+		<li class="nav-item">
+			<a class="nav-link" href="#!"  onclick="showstuff('marketing');">Marketing</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#!" onclick="showstuff('ortsumfragen');">Ortsumfragen</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#!" onclick="showstuff('loremipsumumfragen');">LoremIpsumUnfragen</a>
+		</li>
+	</ul>
+	
+	<div class="container">
+  <!-- Content here -->
 
 	<div class="media">
 		<div class="media-body" id="marketing" style="visibility:hidden;">
@@ -109,7 +109,7 @@
 			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
 		</div>
 	</div>
-</div>
+	</div>
 
 </body>
 </html>
