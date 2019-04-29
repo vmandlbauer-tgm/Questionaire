@@ -6,8 +6,21 @@ $database = "shop";
 $message = "";
 try
 {
-    $connect = new PDO("mysql:host=$host; dbname=$database", $username, $password);
-    $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    require 'vendor/autoload.php'; // include Composer's autoloader
+    try{
+        $m = new MongoDB\Client();
+        //echo "Connection to database Successfull!";echo"<br />";
+
+        $db = $m->questionnaire;
+        //echo "Databse loginreg selected";
+        $collection = $db->user;
+        //echo "Collection userdata Selected Successfully";
+    }
+    catch (Exception $e){
+        die("Error. Couldn't connect to the server. Please Check");
+    }
+    session_start();
+
     if(isset($_POST["login"]))
     {
         if(empty($_POST["username"]) || empty($_POST["password"]))
@@ -16,12 +29,12 @@ try
         }
         else
         {
-            $query = "SELECT * FROM kunde WHERE username = :username AND password = :password";
-            $statement = $connect->prepare($query);
+            $query = "$collection->findOne(array('username'=> $username, 'password'=> $password";
+            $statement = $m->prepare($query);
             $statement->execute(
                 array(
-                    'username'     =>     $_POST["username"],
-                    'password'     =>     $_POST["password"]
+                    $username     =>     $_POST["username"],
+                    $password     =>     $_POST["password"]
                 )
             );
             $obj = $statement->fetchObject();
@@ -44,21 +57,8 @@ try
             $message = '<label>All fields are required</label>';
         }
         else
-        {    $query = "INSERT INTO kunde (vname,
-											 nname,
-											 username,
-											 password,
-											 ktelnr,
-											 skischugr)
-											 VALUES
-											 (:vorname,
-											  :nachname,
-											  :username,
-											  :password,
-											  :telefonnummer,
-											  :schuhgr)
-											 ";
-            $statement = $connect->prepare($query);
+        {    $query = "db.products.insert( { vorname: :vorname, nachname: :nachname } )";
+            $statement = $m->prepare($query);
 
             $statement->bindParam(':vorname',$_POST["vorname"],PDO::PARAM_STR);
             $statement->bindParam(':nachname',$_POST["nachname"],PDO::PARAM_STR);
@@ -68,7 +68,7 @@ try
             $statement->bindParam(':schuhgr',$_POST["schuhgröße"],PDO::PARAM_INT);
 
             $statement->execute();
-            $bablla = $connect->lastInsertId();
+            $bablla = $m->lastInsertId();
 
             echo $bablla;
             /*$statement->execute(
