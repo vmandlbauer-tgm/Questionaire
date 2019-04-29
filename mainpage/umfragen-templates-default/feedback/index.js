@@ -1,4 +1,3 @@
-
 Survey
     .StylesManager
     .applyTheme("bootstrap");
