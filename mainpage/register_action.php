@@ -31,12 +31,12 @@
         $query = chkemail($email);
         if($query){
             register($arrays);
-            header("Location: login.php");
+            header("Location: login.html");
             }
        else{
         echo "Email already registered!";
            echo"<br>";
-        echo "Please <a href='register.php'>Register</a> with another email ID";
+        echo "Please <a href='register.html'>Register</a> with another email ID";
        }
 }
 
