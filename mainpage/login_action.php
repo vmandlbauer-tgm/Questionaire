@@ -19,7 +19,7 @@
         //var_dump($query);
         if(empty($query)){
             echo "Email ID is not registered.";
-            echo "Either <a href='register'>Register</a> with the new Email ID or <a href='login.php'>Login</a> with an already registered ID";
+            echo "Either <a href='register.html'>Register</a> with the new Email ID or <a href='login.html'>Login</a> with an already registered ID";
         }
         else{
             
